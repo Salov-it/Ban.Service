@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Ban.Service", "Ban.Service.shproj", "{F633379D-1013-4D35-979B-916E03858888}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47D1D5DC-761D-4AF9-9556-372DAEE0F69E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Ban.Service.projitems*{f633379d-1013-4d35-979b-916e03858888}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
