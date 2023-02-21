@@ -1,7 +1,7 @@
 ﻿
 namespace Ban.Domain
 {
-    public class Ban
+    public class Bans
     {
         public int id { get; set; }
         public int entity { get; set; }
