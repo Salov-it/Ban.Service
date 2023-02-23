@@ -1,0 +1,6 @@
+D:\github\EvoServices\Ban.Service\src\Ban.webApi\obj\Debug\net6.0\Ban.webApi.csproj.AssemblyReference.cache
+D:\github\EvoServices\Ban.Service\src\Ban.webApi\obj\Debug\net6.0\Ban.webApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\EvoServices\Ban.Service\src\Ban.webApi\obj\Debug\net6.0\Ban.webApi.AssemblyInfoInputs.cache
+D:\github\EvoServices\Ban.Service\src\Ban.webApi\obj\Debug\net6.0\Ban.webApi.AssemblyInfo.cs
+D:\github\EvoServices\Ban.Service\src\Ban.webApi\obj\Debug\net6.0\Ban.webApi.csproj.CoreCompileInputs.cache
+D:\github\EvoServices\Ban.Service\src\Ban.webApi\obj\Debug\net6.0\Ban.webApi.MvcApplicationPartsAssemblyInfo.cache

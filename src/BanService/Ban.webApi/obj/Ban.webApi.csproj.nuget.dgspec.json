@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.webApi\\Ban.webApi.csproj": {}
+  },
+  "projects": {
+    "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj",
+        "projectName": "Ban.Application",
+        "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj",
+        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj": {
+                "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection.Libraries": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj",
+        "projectName": "Ban.Domain",
+        "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj",
+        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.persistance\\Ban.persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.persistance\\Ban.persistance.csproj",
+        "projectName": "Ban.persistance",
+        "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.persistance\\Ban.persistance.csproj",
+        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj": {
+                "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj"
+              },
+              "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj": {
+                "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.webApi\\Ban.webApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.webApi\\Ban.webApi.csproj",
+        "projectName": "Ban.webApi",
+        "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.webApi\\Ban.webApi.csproj",
+        "packagesPath": "C:\\Users\\salov\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.webApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\salov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj": {
+                "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Application\\Ban.Application.csproj"
+              },
+              "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj": {
+                "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.Domain\\Ban.Domain.csproj"
+              },
+              "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.persistance\\Ban.persistance.csproj": {
+                "projectPath": "D:\\github\\EvoServices\\Ban.Service\\src\\BanService\\Ban.persistance\\Ban.persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
