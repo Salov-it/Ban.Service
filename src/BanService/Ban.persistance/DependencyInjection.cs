@@ -28,7 +28,7 @@ namespace Ban.persistance
                     {
                         services.AddDbContext<BanContext>(options =>
                         {
-                          //  options.UseNpgsql(connectionString);
+                           options.UseNpgsql(connectionString);
                         });
                         break;
                     }

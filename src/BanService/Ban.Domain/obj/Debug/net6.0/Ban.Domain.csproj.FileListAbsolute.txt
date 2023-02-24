@@ -10,3 +10,15 @@ D:\github\EvoServices\Ban.Service\src\Ban.Domain\obj\Debug\net6.0\Ban.Domain.dll
 D:\github\EvoServices\Ban.Service\src\Ban.Domain\obj\Debug\net6.0\refint\Ban.Domain.dll
 D:\github\EvoServices\Ban.Service\src\Ban.Domain\obj\Debug\net6.0\Ban.Domain.pdb
 D:\github\EvoServices\Ban.Service\src\Ban.Domain\obj\Debug\net6.0\ref\Ban.Domain.dll
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\bin\Debug\net6.0\Ban.Domain.deps.json
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\bin\Debug\net6.0\Ban.Domain.dll
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\bin\Debug\net6.0\Ban.Domain.pdb
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.csproj.AssemblyReference.cache
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.AssemblyInfoInputs.cache
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.AssemblyInfo.cs
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.csproj.CoreCompileInputs.cache
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.dll
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\refint\Ban.Domain.dll
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\Ban.Domain.pdb
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.Domain\obj\Debug\net6.0\ref\Ban.Domain.dll

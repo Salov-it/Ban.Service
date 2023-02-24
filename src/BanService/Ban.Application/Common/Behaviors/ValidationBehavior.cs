@@ -4,7 +4,7 @@ using MediatR;
 namespace Ban.Application.Common.Behaviors
 {
     internal class ValidationBehavior<TRequest, TResponse>
-       // : IPipelineBehavior<TRequest, TResponse>
+        : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>
     {
         private readonly IEnumerable<IValidator<TRequest>> _validators;
@@ -31,6 +31,11 @@ namespace Ban.Application.Common.Behaviors
                 throw new ValidationException(failtures);
             }
             return next();
+        }
+
+        public Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
+        {
+            throw new NotImplementedException();
         }
     }
 }
