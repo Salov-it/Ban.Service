@@ -7,12 +7,14 @@ namespace Ban.Application.CQRS.Command.Create
     
     public class CreateBansCommandHandler : IRequestHandler<CreateBanСommand,Bans>
     {
-        private readonly IBanContext _banContext;
+        
         public CreateBansCommandHandler(IBanContext context)
         {
             _banContext = context;
         }
-        
+
+        private readonly IBanContext _banContext;
+
         public async Task<Bans> Handle(CreateBanСommand request, CancellationToken cancellationToken)
         {
             var content = new Bans

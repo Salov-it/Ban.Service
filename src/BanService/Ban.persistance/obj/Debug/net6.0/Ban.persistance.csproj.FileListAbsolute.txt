@@ -3,3 +3,8 @@ D:\github\EvoServices\Ban.Service\src\Ban.persistance\obj\Debug\net6.0\Ban.persi
 D:\github\EvoServices\Ban.Service\src\Ban.persistance\obj\Debug\net6.0\Ban.persistance.AssemblyInfoInputs.cache
 D:\github\EvoServices\Ban.Service\src\Ban.persistance\obj\Debug\net6.0\Ban.persistance.AssemblyInfo.cs
 D:\github\EvoServices\Ban.Service\src\Ban.persistance\obj\Debug\net6.0\Ban.persistance.csproj.CoreCompileInputs.cache
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.persistance\obj\Debug\net6.0\Ban.persistance.csproj.AssemblyReference.cache
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.persistance\obj\Debug\net6.0\Ban.persistance.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.persistance\obj\Debug\net6.0\Ban.persistance.AssemblyInfoInputs.cache
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.persistance\obj\Debug\net6.0\Ban.persistance.AssemblyInfo.cs
+D:\github\EvoServices\Ban.Service\src\BanService\Ban.persistance\obj\Debug\net6.0\Ban.persistance.csproj.CoreCompileInputs.cache

@@ -4,6 +4,7 @@ using Ban.Application.Mapping;
 using System.Reflection;
 using Ban.Application.Interfac;
 using Ban.persistance;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,9 +16,13 @@ builder.Services.AddAutoMapper(config =>
     config.AddProfile(new AssemblyMappingProfile(typeof(IBanContext).Assembly));
 
 });
-builder.Services.AddApplication();
-builder.Services.AddPersistance(configuration);
+//builder.Services.AddApplication();
+//builder.Services.AddPersistance(configuration);
 
+//Регистрация DbContext и mediatr
+builder.Services.AddDbContext<BanContext>();
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.AddScoped<IBanContext>(provider => provider.GetService<BanContext>());
 
 builder.Services.AddControllers();
 
